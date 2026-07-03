@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <h1 align="center">
+      <u>STUDENT REGISTRATION FORM</u>
+    </h1>
+
+    <form action="action.html" method="get">
+      <table align="center" padding="8" style="background-color: aquamarine">
+        <tr>
+          <td><b>FIRST NAME</b></td>
+          <td>
+            <input type="text" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>LAST NAME</b></td>
+          <td>
+            <input type="text" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>DATE OF BIRTH</b></td>
+          <td>
+            <select>
+              <option>Day</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>31</option>
+            </select>
+
+            <select>
+              <option>Month</option>
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+            </select>
+
+            <select>
+              <option>Year</option>
+              <option>2000</option>
+              <option>2001</option>
+              <option>2002</option>
+              <option>2003</option>
+              <option>2004</option>
+              <option>2005</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>EMAIL ID</b></td>
+          <td>
+            <input type="email" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>MOBILE NUMBER</b></td>
+          <td>
+            <input type="text" maxlength="10" />
+            (10 digit number)
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>GENDER</b></td>
+          <td>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>ADDRESS</b></td>
+          <td>
+            <textarea rows="5" cols="30"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>CITY</b></td>
+          <td>
+            <input type="text" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>PIN CODE</b></td>
+          <td>
+            <input type="text" maxlength="6" />
+            (6 digit number)
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>STATE</b></td>
+          <td>
+            <input type="text" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>COUNTRY</b></td>
+          <td>
+            <input type="text" value="India" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>HOBBIES</b></td>
+          <td>
+            <input type="checkbox" />Drawing <input type="checkbox" />Singing
+            <input type="checkbox" />Dancing <input type="checkbox" />Sketching
+            <br /><br />
+            <input type="checkbox" />Others
+            <input type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>QUALIFICATION</b></td>
+          <td>
+            <table border="1" cellpadding="5">
+              <tr>
+                <th>Sl.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="class10th_board" /></td>
+                <td><input type="text" name="class10th_percentage" /></td>
+                <td><input type="text" name="class10th_yearOfPassing" /></td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="class12th_board" /></td>
+                <td><input type="text" name="class12th_percentage" /></td>
+                <td><input type="text" name="class12th_yearOfPassing" /></td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><b>COURSES APPLIED FOR</b></td>
+          <td>
+            <label for="bca">BCA</label>
+            <input type="radio" name="course" id="bca" value="bca" />
+            <label for="mca">MCA</label>
+            <input type="radio" name="course" id="mca" value="mca" />
+            <label for="bba">BBA</label>
+            <input type="radio" name="course" id="bba" value="bba" />
+            <label for="ca">CA</label>
+            <input type="radio" name="course" id="ca" value="ca" />
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

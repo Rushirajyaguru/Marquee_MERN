@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLE</title>
+    <style>
+      table {
+        margin: auto;
+      }
+      td,
+      th {
+        border: black;
+        padding: 10px;
+      }
+      thead {
+        color: beige;
+        background-color: black;
+      }
+      caption {
+        background-color: aqua;
+      }
+      tfoot {
+        background-color: rgb(128, 188, 168);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!--<colgroup> it is used to color the each colomn manually
+        <col style="background-color: antiquewhite" />
+        <col style="background-color: azure" />
+        <col style="background-color: beige" />
+        <col style="background-color: blanchedalmond" />
+      </colgroup>-->
+      <caption>
+        This Table Having Employee Salary Record
+      </caption>
+      <thead>
+        <tr>
+          <th>Empcode</th>
+          <th>Emp_Name</th>
+          <th>Job_Title</th>
+          <th>Salary(LPA)</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>911</td>
+          <td>Zoya Shaikh</td>
+          <td>Developer</td>
+          <td>3.6</td>
+        </tr>
+        <tr>
+          <td>912</td>
+          <td>lisa</td>
+          <td>Tester</td>
+          <td rowspan="2">2.4</td>
+        </tr>
+        <tr>
+          <td>913</td>
+          <td>Prem</td>
+          <td>Developer</td>
+        </tr>
+        <tr>
+          <td>914</td>
+          <td>Aiti</td>
+          <td>Digital Marketing</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>915</td>
+          <td>Amen</td>
+          <td>Software developer</td>
+          <td>7.5</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr style="text-align: center">
+          <td colspan="4">This is footer part</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

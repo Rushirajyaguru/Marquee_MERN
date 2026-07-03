@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h1><center>Sport Player Form</center></h1>
+    <form action="action.html" method="get">
+        <fieldset>
+            <legend><h4>Player Information</h4></legend>
+            <ul><li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name here"><br>
+            </li>
+            <li>
+            <label for="team">Team:</label>
+            <input type="text" id="team" name="team" placeholder="Enter Team"><br>
+            </li>
+            <li>
+            <label for="sport">Sport:</label>
+            <input type="text" id="sport" name="sport" placeholder="Enter Sport"><br>
+            </li>   
+            <li>
+                <label for="parent">Parent:</label>
+                <input type="text" id="parent" name="parent" placeholder="Enter Parent's Name"><br>
+            </li>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>medical history for athhelete</h4></legend>
+            <ul><li>
+            <label for="history">History of concusion:</label>
+            <input type="radio" id="history_concusion_yes" name="history" value="history_concusion_yes"><label for="history_concusion_yes">Yes</label>
+            <input type="radio" id="history_concusion_no" name="history" value="history_concusion_no"><label for="history_concusion_no">No</label><br>
+            </li>
+            <li>
+            <label for="previous">Any previous surgeries:</label>
+            <input type="text" id="previous" name="previous"><br>
+            </li>
+            <li>
+            <label for="previous_injuries">previous injuries:</label>
+            <input type="radio" id="previous_injuries_yes" name="previous_injuries" value="previous_injuries_yes"><label for="previous_injuries_yes">Yes</label>  
+            <input type="radio" id="previous_injuries_no" name="previous_injuries" value="previous_injuries_no"><label for="previous_injuries_no">No</label><br>
+            </li>  
+            <li><label for="bone">Any bone fracture?</label>
+            <input type="radio" id="bone_yes" name="bone" value="bone_yes"><label for="bone_yes">Yes</label>
+            <input type="radio" id="bone_no" name="bone" value="bone_no"><label for="bone_no">No</label><br>
+            </li>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Select Your Department</h4></legend>
+            <select name="Department_name">
+                <option value="null">Select Your Department</option>
+                <option value="CSE">CSE</option>
+                <option value="AI/ML">AI/ML</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="Nano_Tech">Nano_Tech</option>
+            </select>
+        </fieldset>
+
+         <fieldset>
+            <legend><h4>Select Your Hobbies</h4></legend>
+            <input type="checkbox" id="h1" name="hobbies" value="reading">
+            <label for="h1">Reading</label>
+            <input type="checkbox" id="h2" name="hobbies" value="sports">
+            <label for="h2">Sports</label>
+            <input type="checkbox" id="h3" name="hobbies" value="music">
+            <label for="h3">Music   </label>
+            <input type="checkbox" id="h4" name="hobbies" value="travelling">
+            <label for="h4">Travelling</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>TextArea</h4></legend>
+            <textarea name="comments" rows="4" cols="50" placeholder="Enter Your Comments Here..."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Email</h4></legend>
+            <input type="email" id="email" name="email" placeholder="Enter your email here"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Phone Number</h4></legend>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number here"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Date</h4></legend>
+            <input type="date" id="date" name="date"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Time</h4></legend>
+            <input type="time" id="time" name="time"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Date-Time</h4></legend>
+            <input type="datetime-local" id="datetime" name="datetime"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>File Upload</h4></legend>
+            <label for="file">Enter File:</label>
+            <input type="file" id="file" name="file"><br>
+            <label for="image">Profile_Image</label>
+            <input type="file" id="image" name="image" accept=".jpg,.png,.jpeg"><br>
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf"><br>
+            <label for="excel">Excel_File:</label>
+            <input type="file" id="excel" name="excel" accept=".xlxs">
+        </fieldset>
+        
+
+
+
+        <fieldset>
+            <legend><h4>Doctor's Recommendation Sport Partition</h4></legend>
+            <ul><li>
+            <label for="sport">Cleadred for sports:</label>
+            <input type="radio" id="sport_yes" name="sport" value="sport_yes"><label for="sport_yes">Yes</label>
+            <input type="radio" id="sport_no" name="sport" value="sport_no"><label for="sport_no">No</label><br>
+            </li>
+            <li>
+            <label for="id">if not cleared give reason:</label>
+            <input type="text" id="id" name="id"><br>
+            </li>   
+        </fieldset>
+        
+        <input type="submit" value="Submit">    
+    </form>
+</body>
+</html>
