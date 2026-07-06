@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--external css-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Introduction To Css</title>
+    <!--internal css-->
+    <style>
+      input[type="text"] {
+        background-color: blueviolet;
+      }
+      input[type="password"] {
+        background-color: aqua;
+      }
+      .formatting {
+        background-color: palegoldenrod;
+      }
+      .yellow {
+        background-color: lightgreen;
+      }
+      body {
+        background-color: lightpink;
+      }
+      ul li {
+        color: brown;
+      }
+      div > p {
+        color: rgb(82, 5, 248);
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <!--inline css opening of an element-->
+    <h1>Types of css :</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam maiores
+      natus nam vero temporibus, at culpa! Voluptates, quasi magnam eaque
+      corrupti aliquid aliquam quidem sunt saepe est eligendi nihil assumenda!
+      Dolores quos, repellendus distinctio nisi molestias excepturi modi qui
+      autem sapiente aut incidunt vel cupiditate magnam ratione voluptas
+      provident inventore illo. Adipisci suscipit aut harum voluptates
+      architecto quod odit hic. Pariatur, inventore delectus laboriosam labore
+      blanditiis ipsum nesciunt, ut quia sequi ea ipsam temporibus aut, id odit
+      accusamus tempore quae nam perspiciatis eius quo incidunt rerum. Quidem,
+      natus enim? Ipsum.
+    </p>
+    <ul>
+      <li class="formatting">inline css</li>
+      <li class="yellow">internal css</li>
+      <li class="formatting">external css</li>
+    </ul>
+    <section>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+          praesentium, illo repudiandae <br />id voluptatum tempora molestiae
+          voluptates dolore at a quibusdam voluptate natus ea quo maxime optio
+        </p>
+      </div>
+    </section>
+    <form action="">
+      <label for="name">username:</label>
+      <input type="text" name="name" id="name" /><br />
+      <label for="pass">password</label>
+      <input type="password" name="pass" id="pass" /><br />
+      <button>submit</button>
+    </form>
+  </body>
+</html>
