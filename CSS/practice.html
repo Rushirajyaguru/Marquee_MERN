@@ -31,12 +31,22 @@
         color: green;
         text-align: center;
       }
+      .navi {
+        top: 10px;
+        background-color: lightpink;
+        position: sticky;
+      }
+      .chatbox {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        height: 75px;
+        width: 75px;
+      }
     </style>
   </head>
   <body>
-    <!-- Top Level Information -->
-
-    <header id="navbar-top">
+    <header id="navbar-top" class="navi">
       <nav>
         <a href="#sub-heading-1">1. Topics</a> <br />
         <a href="#sub-heading-2">2. Topics</a> <br />
@@ -260,8 +270,14 @@
           </p>
         </div>
       </div>
+      <div>
+        <img
+          class="chatbox"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThkyvjS5bRaAlWZoAy4P9u37Nycd10Xo4oe9C0c6e1LA&s=10"
+          alt=""
+        />
+      </div>
     </main>
-
     <footer></footer>
   </body>
 </html>
