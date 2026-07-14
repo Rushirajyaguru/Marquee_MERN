@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:antiquewhite;
+    
+}
+
+.services{
+    border: 5px solid #000;
+    width:90%;
+    max-width:1300px;
+    margin: 70px ;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.services h1{
+    text-align:center;
+    font-size:52px;
+    color:#1d4fa8;
+    font-weight:700;
+    margin-bottom:60px;
+}
+
+.services-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px 55px;
+}
+
+.service-box{
+    display:flex;
+    align-items:flex-start;
+    gap:22px;
+}
+
+.icon{
+    width:74px;
+    height:74px;
+    min-width:74px;
+    border-radius:50%;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icon i{
+    font-size:30px;
+    color:#111;
+    transition:.4s;
+}
+
+.service-box.main .icon{
+    background:#ff0000;
+}
+
+.content h3{
+    font-size:30px;
+    margin-bottom:10px;
+    color:#111;
+    font-weight:700;
+}
+
+.service-box.active .content h3{
+    color:#ff4b4b;
+}
+
+.content p{
+    color:#666;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.service-box:hover .icon{
+    background:#ff4b4b;
+    transform:translateY(-5px);
+}
+
+.service-box:hover .icon i{
+    color:#fff;
+}
+
+.service-box:hover h3{
+    color:#ff4b4b;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+}
