@@ -59,7 +59,7 @@ body{
 }
 
 .service-box.main .icon{
-    background:#ff0000;
+    background:#00ff66;
 }
 
 .content h3{
@@ -69,8 +69,8 @@ body{
     font-weight:700;
 }
 
-.service-box.active .content h3{
-    color:#ff4b4b;
+.service-box.main .content h3{
+    color:#00bfff;
 }
 
 .content p{
