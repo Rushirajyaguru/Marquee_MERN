@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    padding: 40px;
+    border-radius: 1%;  
+    gap: 40px; 
+}
+
+.category img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.category{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+}
