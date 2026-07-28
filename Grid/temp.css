@@ -98,7 +98,7 @@ body{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    border: 2px solid;
+    border: 3px solid;
 }
 
 .grid3-img{
