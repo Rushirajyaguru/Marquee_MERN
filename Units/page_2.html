@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card_Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        background-color: azure;
+      }
+      .card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+      }
+      .one,
+      .two,
+      .three {
+        position: relative;
+        padding: 23px;
+        height: 400px;
+        width: 300px;
+
+        border-radius: 50px;
+        overflow: hidden;
+        background-color: rgb(255, 223, 240);
+      }
+
+      h1 {
+        text-align: center;
+        color: blue;
+      }
+      h3 {
+        color: rgb(255, 0, 0);
+      }
+      .quote {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        top: -40px;
+        right: -40px;
+      }
+      .quote i {
+        color: white;
+        font-size: 28px;
+        transform: translate(-15px, 15px);
+      }
+      .chatbox {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        height: 95px;
+        width: 85px;
+      }
+      .wp {
+        position: fixed;
+        height: 90px;
+        width: 85px;
+        left: 20px;
+        bottom: 20px;
+      }
+      .star i {
+        color: gold;
+        font-size: 20px;
+        margin: 0 2px;
+      }
+      .star {
+        text-align: center;
+        margin: 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">What our Clients Say</h1>
+    <p style="text-align: center">
+      <b
+        >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+        dolorem</b
+      >
+    </p>
+    <section class="card">
+      <div class="one">
+        <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
+
+        <h1 style="text-align: center">John Miller</h1>
+        <h3 style="text-align: center">Software Architech</h3>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p style="text-align: left">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+          veniam exercitationem blanditiis quod nesciunt! Hic, dicta, aspernatur
+          aliquid animi fuga voluptatem dolorum ullam odit at molestiae
+          assumenda, maxime earum! Sit? Unde magni dolores at a quis, enim,
+          debitis adipisci, ad quos nesciunt neque sint quaerat eaque
+        </p>
+      </div>
+
+      <div class="two">
+        <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
+        <h1 style="text-align: center">Smantha Tumer</h1>
+        <h3 style="text-align: center">Product Manager</h3>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p style="text-align: left">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+          veniam exercitationem blanditiis quod nesciunt! Hic, dicta, aspernatur
+          aliquid animi fuga voluptatem dolorum ullam odit at molestiae
+          assumenda, maxime earum! Sit? Unde magni dolores at a quis, enim,
+          debitis adipisci, ad quos nesciunt neque sint quaerat eaque
+        </p>
+      </div>
+
+      <div class="three">
+        <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
+        <h1 style="text-align: center">Michael Johnson</h1>
+        <h3 style="text-align: center">Tech Lead</h3>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p style="text-align: left">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+          veniam exercitationem blanditiis quod nesciunt! Hic, dicta, aspernatur
+          aliquid animi fuga voluptatem dolorum ullam odit at molestiae
+          assumenda, maxime earum! Sit? Unde magni dolores at a quis, enim,
+          debitis adipisci, ad quos nesciunt neque sint quaerat eaque
+        </p>
+      </div>
+    </section>
+
+    <div>
+      <img
+        class="chatbox"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThkyvjS5bRaAlWZoAy4P9u37Nycd10Xo4oe9C0c6e1LA&s=10"
+        alt=""
+      />
+    </div>
+
+    <div>
+      <img
+        class="wp"
+        src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
