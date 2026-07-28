@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid_Layout</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: beige;
+      }
+
+      .container {
+        width: 900px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: 180px 180px 180px 160px;
+        grid-template-rows: 90px 90px 90px 90px;
+        gap: 10px;
+      }
+
+      .box1 {
+        background: #eeff00;
+        grid-column: 1;
+        grid-row: span 4;
+      }
+
+      .box2 {
+        background: #6fc04b;
+        grid-column: span 2;
+      }
+
+      .box3 {
+        background: #ef3333;
+      }
+
+      .box4 {
+        background: #f9b233;
+      }
+
+      .box5 {
+        background: #02f881;
+      }
+
+      .box6 {
+        background: #ef3333;
+      }
+
+      .box7 {
+        background: #f9b233;
+      }
+
+      .box8 {
+        background: #4bb2c0;
+        grid-column: 4;
+        grid-row: span 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+      <div class="box box4">4</div>
+      <div class="box box5">5</div>
+      <div class="box box8">8</div>
+      <div class="box box6">6</div>
+      <div class="box box7">7</div>
+    </div>
+  </body>
+</html>
